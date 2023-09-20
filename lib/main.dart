@@ -48,9 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
             onTap: ()async {
               print("OnPress");
               isLoading = true;
-              setState(() {
-
-              });
+              setState(() {});
               await Future.delayed(Duration(seconds: 3));
               isLoading = false;
               setState(() {
